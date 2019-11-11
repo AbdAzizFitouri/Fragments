@@ -11,15 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".fragments.MyDynamicActivity"></activity>
-        <activity android:name=".StaticFragmentActivity">
+        <activity android:name=".DynamicFragmentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DynamicFragmentActivity" />
+        <activity android:name=".StaticFragmentActivity">
+
+        </activity>
         <activity android:name=".MainActivity"></activity>
     </application>
 
